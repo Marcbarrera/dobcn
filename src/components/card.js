@@ -11,12 +11,12 @@ class Card extends Component {
     return (
     <div className="products-container">
       <div className="product-card">
-        <img src={image} alt={title} />
+        <img src={image} alt={title}/>
         <section className="product-card-name">
           <h2>{title}</h2>
           <p>{subtitle}</p>
         </section>
-        <section className="product-card-specs" >
+        <section className="product-card-specs">
           <p>{packing}</p>
           <p>{cn}</p>
         </section>

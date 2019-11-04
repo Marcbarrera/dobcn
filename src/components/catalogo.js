@@ -24,7 +24,7 @@ import Card from "./card";
       .then(json => {
         this.setState({
           products: json,
-					loading: false,
+		  loading: false,
         })
       })
 	}
